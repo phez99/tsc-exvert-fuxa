@@ -1,112 +1,100 @@
 @import 'material-icons/iconfont/material-icons.css';
-@import "@angular/material/prebuilt-themes/indigo-pink.css";
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
 
 @font-face {
-    font-family: "myicons";
-    src: url("./assets/fonts/icomoon.eot?22kwk4");
-    src: url("./assets/fonts/icomoon.eot?22kwk4#iefix")
-            format("embedded-opentype"),
-        url("./assets/fonts/icomoon.ttf?22kwk4") format("truetype"),
-        url("./assets/fonts/icomoon.woff?22kwk4") format("woff"),
-        url("./assets/fonts/icomoon.svg?22kwk4#icomoon") format("svg");
+    font-family: 'myicons';
+    src: url('./assets/fonts/icomoon.eot?22kwk4');
+    src:
+        url('./assets/fonts/icomoon.eot?22kwk4#iefix') format('embedded-opentype'),
+        url('./assets/fonts/icomoon.ttf?22kwk4') format('truetype'),
+        url('./assets/fonts/icomoon.woff?22kwk4') format('woff'),
+        url('./assets/fonts/icomoon.svg?22kwk4#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: "Roboto-Thin";
-    src: local("Roboto Thin"), local("Roboto-Thin"),
-        url("./assets/fonts/roboto-thin/roboto-thin-webfont.woff")
-            format("woff"),
-        url("./assets/fonts/roboto-thin/roboto-thin-webfont.woff2")
-            format("woff2"),
-        url("./assets/fonts/roboto-thin/roboto-thin-webfont.ttf")
-            format("truetype"),
-        url("./assets/fonts/roboto-thin/roboto-thin-webfont.svg") format("svg");
+    font-family: 'Roboto-Thin';
+    src:
+        local('Roboto Thin'),
+        local('Roboto-Thin'),
+        url('./assets/fonts/roboto-thin/roboto-thin-webfont.woff') format('woff'),
+        url('./assets/fonts/roboto-thin/roboto-thin-webfont.woff2') format('woff2'),
+        url('./assets/fonts/roboto-thin/roboto-thin-webfont.ttf') format('truetype'),
+        url('./assets/fonts/roboto-thin/roboto-thin-webfont.svg') format('svg');
 }
 
 @font-face {
-    font-family: "Roboto-Light";
-    src: local("Roboto Light"), local("Roboto-Light"),
-        url("./assets/fonts/roboto-light/roboto-light-webfont.woff")
-            format("woff"),
-        url("./assets/fonts/roboto-light/roboto-light-webfont.woff2")
-            format("woff2"),
-        url("./assets/fonts/roboto-light/roboto-light-webfont.ttf")
-            format("truetype"),
-        url("./assets/fonts/roboto-light/roboto-light-webfont.svg")
-            format("svg");
+    font-family: 'Roboto-Light';
+    src:
+        local('Roboto Light'),
+        local('Roboto-Light'),
+        url('./assets/fonts/roboto-light/roboto-light-webfont.woff') format('woff'),
+        url('./assets/fonts/roboto-light/roboto-light-webfont.woff2') format('woff2'),
+        url('./assets/fonts/roboto-light/roboto-light-webfont.ttf') format('truetype'),
+        url('./assets/fonts/roboto-light/roboto-light-webfont.svg') format('svg');
 }
 
 @font-face {
-    font-family: "Roboto-Regular";
-    src: local("Roboto Regular"), local("Roboto-Regular"),
-        url("./assets/fonts/roboto-regular/roboto-regular-webfont.woff")
-            format("woff"),
-        url("./assets/fonts/roboto-regular/roboto-regular-webfont.woff2")
-            format("woff2"),
-        url("./assets/fonts/roboto-regular/roboto-regular-webfont.ttf")
-            format("truetype"),
-        url("./assets/fonts/roboto-regular/roboto-regular-webfont.svg")
-            format("svg");
+    font-family: 'Roboto-Regular';
+    src:
+        local('Roboto Regular'),
+        local('Roboto-Regular'),
+        url('./assets/fonts/roboto-regular/roboto-regular-webfont.woff') format('woff'),
+        url('./assets/fonts/roboto-regular/roboto-regular-webfont.woff2') format('woff2'),
+        url('./assets/fonts/roboto-regular/roboto-regular-webfont.ttf') format('truetype'),
+        url('./assets/fonts/roboto-regular/roboto-regular-webfont.svg') format('svg');
 }
 
 @font-face {
-    font-family: "Roboto-Medium";
-    src: local("Roboto Medium"), local("Roboto-Medium"),
-        url("./assets/fonts/roboto-medium/roboto-medium-webfont.woff")
-            format("woff"),
-        url("./assets/fonts/roboto-medium/roboto-medium-webfont.woff2")
-            format("woff2"),
-        url("./assets/fonts/roboto-medium/roboto-medium-webfont.ttf")
-            format("truetype"),
-        url("./assets/fonts/roboto-medium/roboto-medium-webfont.svg")
-            format("svg");
+    font-family: 'Roboto-Medium';
+    src:
+        local('Roboto Medium'),
+        local('Roboto-Medium'),
+        url('./assets/fonts/roboto-medium/roboto-medium-webfont.woff') format('woff'),
+        url('./assets/fonts/roboto-medium/roboto-medium-webfont.woff2') format('woff2'),
+        url('./assets/fonts/roboto-medium/roboto-medium-webfont.ttf') format('truetype'),
+        url('./assets/fonts/roboto-medium/roboto-medium-webfont.svg') format('svg');
 }
 
 @font-face {
-    font-family: "Quicksand-Regular";
-    src: local("Quicksand"), local("Quicksand-Regular"),
-        url("./assets/fonts/quicksand-regular\Quicksand-Regular.woff")
-            format("woff"),
-        url("./assets/fonts/quicksand-regular\Quicksand-Regular.woff2")
-            format("woff2"),
-        url("./assets/fonts/quicksand-regular\Quicksand-Regular.ttf")
-            format("truetype");
+    font-family: 'Quicksand-Regular';
+    src:
+        local('Quicksand'),
+        local('Quicksand-Regular'),
+        url('./assets/fonts/quicksand-regular\Quicksand-Regular.woff') format('woff'),
+        url('./assets/fonts/quicksand-regular\Quicksand-Regular.woff2') format('woff2'),
+        url('./assets/fonts/quicksand-regular\Quicksand-Regular.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: "Quicksand-Medium";
-    src: local("Quicksand Medium"), local("Quicksand-Medium"),
-        url("./assets/fonts/quicksand-medium\Quicksand-Medium.woff")
-            format("woff"),
-        url("./assets/fonts/quicksand-medium\Quicksand-Medium.woff2")
-            format("woff2"),
-        url("./assets/fonts/quicksand-medium\Quicksand-Medium.ttf")
-            format("truetype");
+    font-family: 'Quicksand-Medium';
+    src:
+        local('Quicksand Medium'),
+        local('Quicksand-Medium'),
+        url('./assets/fonts/quicksand-medium\Quicksand-Medium.woff') format('woff'),
+        url('./assets/fonts/quicksand-medium\Quicksand-Medium.woff2') format('woff2'),
+        url('./assets/fonts/quicksand-medium\Quicksand-Medium.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: "Quicksand-Bold";
-    src: local("Quicksand"), local("Quicksand-Bold"),
-        url("./assets/fonts/quicksand-bold\Quicksand-Bold.woff")
-            format("woff"),
-        url("./assets/fonts/quicksand-bold\Quicksand-Bold.woff2")
-            format("woff2"),
-        url("./assets/fonts/quicksand-bold\Quicksand-Bold.ttf")
-            format("truetype");
+    font-family: 'Quicksand-Bold';
+    src:
+        local('Quicksand'),
+        local('Quicksand-Bold'),
+        url('./assets/fonts/quicksand-bold\Quicksand-Bold.woff') format('woff'),
+        url('./assets/fonts/quicksand-bold\Quicksand-Bold.woff2') format('woff2'),
+        url('./assets/fonts/quicksand-bold\Quicksand-Bold.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: "Roboto-Bold";
-    src: local("Roboto Bold"), local("Roboto-Bold"),
-        url("./assets/fonts/roboto-bold/roboto-bold-webfont.woff")
-            format("woff"),
-        url("./assets/fonts/roboto-bold/roboto-bold-webfont.woff2")
-            format("woff2"),
-        url("./assets/fonts/roboto-bold/roboto-bold-webfont.ttf")
-            format("truetype"),
-        url("./assets/fonts/roboto-bold/roboto-bold-webfont.svg")
-		    format("svg");
+    font-family: 'Roboto-Bold';
+    src:
+        local('Roboto Bold'),
+        local('Roboto-Bold'),
+        url('./assets/fonts/roboto-bold/roboto-bold-webfont.woff') format('woff'),
+        url('./assets/fonts/roboto-bold/roboto-bold-webfont.woff2') format('woff2'),
+        url('./assets/fonts/roboto-bold/roboto-bold-webfont.ttf') format('truetype'),
+        url('./assets/fonts/roboto-bold/roboto-bold-webfont.svg') format('svg');
 }
 
 /* System and General */
@@ -115,14 +103,14 @@ html {
     position: relative;
     /*min-height: 100%;*/
     background-color: #ffffff;
-    font-family: "Segoe UI Symbol", "Roboto-Regular", "Helvetica Neue", sans-serif;
+    font-family: 'Segoe UI Symbol', 'Roboto-Regular', 'Helvetica Neue', sans-serif;
     font-weight: 300;
 }
 
 body {
     height: 100%;
     margin: 0px;
-    font-family: "Segoe UI Symbol", "Roboto-Regular", "Helvetica Neue", sans-serif;
+    font-family: 'Segoe UI Symbol', 'Roboto-Regular', 'Helvetica Neue', sans-serif;
     font-weight: 300;
     background-color: white;
 }
@@ -154,7 +142,7 @@ app-root {
 }
 
 .default-color {
-    color:rgba(0, 0, 0, 0.8);
+    color: rgba(0, 0, 0, 0.8);
 }
 
 /* toaster overwrite */
@@ -291,8 +279,8 @@ app-root {
     text-indent: -9999px;
     width: 30px;
     height: 30px;
-    background: url(assets/images/logo.svg);
-    background-size: 30px 30px;
+    background: url(assets/images/tsc-expert.svg) no-repeat center;
+    background-size: contain;
 }
 
 /* Menu */
@@ -357,8 +345,8 @@ app-root {
 .menu-item-content-icon {
     height: 50px;
     width: 55px;
-    display:table-cell;
-    vertical-align:middle;
+    display: table-cell;
+    vertical-align: middle;
     padding-top: 4px;
 }
 
@@ -483,24 +471,24 @@ app-root {
     left: 3px;
     opacity: 0.5;
     overflow: hidden;
-    white-space:nowrap;
-    text-overflow:ellipsis;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .my-form-field input,
 .my-form-field mat-select,
 .my-form-field textarea {
-  font-size: 13px;
-  border: none;
-  border-radius: 2px;
-  opacity: 1;
+    font-size: 13px;
+    border: none;
+    border-radius: 2px;
+    opacity: 1;
 }
 
 .my-form-field input,
 .my-form-field textarea {
-  padding: 6px 3px 7px 4px;
-  background-color: var(--formInputBackground);
-  color: var(--formInputColor);
+    padding: 6px 3px 7px 4px;
+    background-color: var(--formInputBackground);
+    color: var(--formInputColor);
 }
 
 .my-form-field input:focus {
@@ -510,27 +498,27 @@ app-root {
 }
 
 .my-form-field .mat-mdc-select {
-  display: inline-flex;
+    display: inline-flex;
 }
 
 .my-form-field .mat-mdc-select-trigger {
-  min-height: 28px;
-  line-height: 28px;
-  padding: 0 4px;
-  background-color: var(--formInputBackground);
+    min-height: 28px;
+    line-height: 28px;
+    padding: 0 4px;
+    background-color: var(--formInputBackground);
 }
 
 .my-form-field .mat-mdc-select-arrow {
-  align-self: center;
+    align-self: center;
 }
 
 .my-form-field .mat-mdc-form-field-infix {
-  padding-top: 4px;
-  padding-bottom: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 .my-form-field-info {
-    color:rgba(210, 210, 210, 0.5);
+    color: rgba(210, 210, 210, 0.5);
     padding-left: 10px;
     display: inline-block;
     height: 18px;
@@ -545,15 +533,15 @@ app-root {
 }
 
 .my-form-field-permission {
-    width:80px;
-    height:28px;
+    width: 80px;
+    height: 28px;
     background-color: var(--formInputBackground);
     color: var(--formInputColor);
 }
 
 .my-form-field-bitmask {
-    width:65px;
-    height:28px;
+    width: 65px;
+    height: 28px;
     background-color: var(--formInputBackground);
     color: var(--formInputColor);
     cursor: pointer;
@@ -570,11 +558,11 @@ app-root {
     left: 0px;
     font-size: 13px;
     width: 35px;
-    text-align:left;
+    text-align: left;
 }
 
 .my-form-field-link {
-    position:absolute;
+    position: absolute;
     bottom: 0px;
     right: 0px;
     height: 28px;
@@ -584,7 +572,7 @@ app-root {
     color: var(--formInputColor);
 }
 
-.icon-button-text span  {
+.icon-button-text span {
     display: inline-block;
     font-size: 14px;
     text-align: left;
@@ -592,13 +580,15 @@ app-root {
 }
 
 .fill-box {
-    width: 100%;                    /* fallback base */
-    width: -webkit-fill-available;  /* Chrome/Safari/Edge */
-    width: -moz-available;          /* old Firefox */
+    width: 100%; /* fallback base */
+    width: -webkit-fill-available; /* Chrome/Safari/Edge */
+    width: -moz-available; /* old Firefox */
 }
 
 @supports (width: stretch) {
-    .fill-box { width: stretch; }
+    .fill-box {
+        width: stretch;
+    }
 }
 
 /*
@@ -621,7 +611,7 @@ mat-toolbar,
 mat-toolbar-row {
     /* min-height: 44px !important; */
     height: 46px !important;
-    font-family: "Segoe UI Symbol", "Roboto-Regular", "Helvetica Neue", sans-serif !important;
+    font-family: 'Segoe UI Symbol', 'Roboto-Regular', 'Helvetica Neue', sans-serif !important;
     font-weight: 300 !important;
     font-size: 22px !important;
     padding-left: 2px !important;
@@ -650,7 +640,7 @@ mat-toolbar,
 mat-toolbar-row {
     /* min-height: 44px !important; */
     height: 46px !important;
-    font-family: "Segoe UI Symbol", "Roboto-Regular", "Helvetica Neue", sans-serif !important;
+    font-family: 'Segoe UI Symbol', 'Roboto-Regular', 'Helvetica Neue', sans-serif !important;
     font-weight: 300 !important;
     font-size: 22px !important;
     padding-left: 2px !important;
@@ -787,7 +777,9 @@ mat-toolbar-row {
     height: 100%;
     border-radius: inherit;
     cursor: pointer;
-    transition: margin-left 300ms ease-in-out, background-color 300ms;
+    transition:
+        margin-left 300ms ease-in-out,
+        background-color 300ms;
 }
 
 .toggle-button > .inner-circle {
@@ -795,7 +787,9 @@ mat-toolbar-row {
     width: 50%;
     height: 100%;
     border-radius: inherit;
-    transition: margin-left 300ms ease-in-out, background-color 300ms,
+    transition:
+        margin-left 300ms ease-in-out,
+        background-color 300ms,
         color 300ms;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.28);
     position: absolute;
@@ -881,7 +875,7 @@ mat-toolbar-row {
     border: 1px solid rgba(0, 0, 0, 0.1) !important;
     font-size: 13px;
     padding: 5px 2px 6px 3px !important;
-    color:gray;
+    color: gray;
 }
 
 .input-color input:focus {
@@ -952,7 +946,9 @@ mat-toolbar-row {
 .color-picker .type-policy {
     top: 185px !important;
 }
-.color-picker > .hex-text, .rgba-text, .hsla-text {
+.color-picker > .hex-text,
+.rgba-text,
+.hsla-text {
     padding: 0px 8px !important;
 }
 
@@ -960,7 +956,8 @@ mat-toolbar-row {
     padding: 0px 8px !important;
 }
 
-.color-picker .hex-text .box input, .color-picker input {
+.color-picker .hex-text .box input,
+.color-picker input {
     background-color: #ffffff !important;
 }
 
@@ -981,7 +978,7 @@ mat-toolbar-row {
 }
 
 .light-dialog-container .mat-dialog-container {
-    padding: 5px 0px  !important;
+    padding: 5px 0px !important;
     color: unset !important;
 }
 
@@ -1000,7 +997,7 @@ mat-toolbar-row {
 
 .gauge-property-button {
     background-color: dimgrey;
-    color:white;
+    color: white;
 }
 
 /* standard */
@@ -1048,7 +1045,7 @@ mat-toolbar-row {
 }
 
 .message-error {
-    color:#ff5151;
+    color: #ff5151;
 }
 
 .tohide {
@@ -1238,39 +1235,69 @@ mat-toolbar-row {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-  }
+}
 
-  /* COLUMN BASE */
-  .col {
+/* COLUMN BASE */
+.col {
     flex: 1 0 0;
-  }
+}
 
-  /* COLUMN SIZES (12-grid style) */
-  .col-1  { flex: 0 0 8.33%; }
-  .col-2  { flex: 0 0 16.66%; }
-  .col-3  { flex: 0 0 25%; }
-  .col-4  { flex: 0 0 33.33%; }
-  .col-5  { flex: 0 0 41.66%; }
-  .col-6  { flex: 0 0 50%; }
-  .col-7  { flex: 0 0 58.33%; }
-  .col-8  { flex: 0 0 66.66%; }
-  .col-9  { flex: 0 0 75%; }
-  .col-10 { flex: 0 0 83.33%; }
-  .col-11 { flex: 0 0 91.66%; }
-  .col-12 { flex: 0 0 100%; }
+/* COLUMN SIZES (12-grid style) */
+.col-1 {
+    flex: 0 0 8.33%;
+}
+.col-2 {
+    flex: 0 0 16.66%;
+}
+.col-3 {
+    flex: 0 0 25%;
+}
+.col-4 {
+    flex: 0 0 33.33%;
+}
+.col-5 {
+    flex: 0 0 41.66%;
+}
+.col-6 {
+    flex: 0 0 50%;
+}
+.col-7 {
+    flex: 0 0 58.33%;
+}
+.col-8 {
+    flex: 0 0 66.66%;
+}
+.col-9 {
+    flex: 0 0 75%;
+}
+.col-10 {
+    flex: 0 0 83.33%;
+}
+.col-11 {
+    flex: 0 0 91.66%;
+}
+.col-12 {
+    flex: 0 0 100%;
+}
 
-  /* OPTIONAL: spacing */
-  .gap-8  { gap: 8px; }
-  .gap-16 { gap: 16px; }
+/* OPTIONAL: spacing */
+.gap-8 {
+    gap: 8px;
+}
+.gap-16 {
+    gap: 16px;
+}
 
-  .center {
+.center {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
 /* html button rendered as pressed (button action with 'show pressed' enabled) */
 .md-btn.md-btn-pressed {
-    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.3), inset 0 1px 2px rgba(0, 0, 0, 0.15) !important;
+    box-shadow:
+        inset 0 0 0 1px rgba(0, 0, 0, 0.3),
+        inset 0 1px 2px rgba(0, 0, 0, 0.15) !important;
     filter: brightness(0.93);
 }
